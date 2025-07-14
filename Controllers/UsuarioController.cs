@@ -202,5 +202,28 @@ namespace Decolei.net.Controllers
 
             return Ok(resultado);
         }
+        // --- ATUALIZAR PERFIL DE USUÁRIO ---
+        [Authorize(Roles = "ADMIN")]
+        [HttpPut("{id}/perfil")]
+        public async Task<IActionResult> AtualizarPerfil(int id, [FromBody] AtualizarPerfilDto dto)
+        {
+            var usuario = await _userManager.FindByIdAsync(id.ToString());
+
+            if (usuario == null)
+                return NotFound("Usuário não encontrado.");
+
+            usuario.Perfil = dto.Perfil.ToUpper();
+
+            var rolesAtuais = await _userManager.GetRolesAsync(usuario);
+            await _userManager.RemoveFromRolesAsync(usuario, rolesAtuais);
+            await _userManager.AddToRoleAsync(usuario, usuario.Perfil);
+
+            var resultado = await _userManager.UpdateAsync(usuario);
+
+            if (!resultado.Succeeded)
+                return BadRequest(resultado.Errors);
+
+            return Ok("Perfil atualizado com sucesso.");
+        }
     }
 }
