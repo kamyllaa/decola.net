@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|c:\\users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|c:\\users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|c:\\users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|c:\\users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EEC5B6-4D4F-48D3-8436-28673A2AA3A2}|Decolei.net.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAqwM0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T11:45:53Z",
+              "WhenOpened": "2025-07-14T14:01:19.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T12:40:54.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\k.de.araujo.silva\\source\\repos\\kamyllaa\\decola.net\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T12:31:57.971Z",
               "EditorCaption": ""
             }
           ]

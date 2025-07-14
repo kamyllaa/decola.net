@@ -185,5 +185,22 @@ namespace Decolei.net.Controllers
             }
             return BadRequest(ModelState);
         }
+        // --- NOVO: LISTAR USUÁRIOS (apenas para ADMIN) ---
+        [Authorize(Roles = "ADMIN")]
+        [HttpGet]
+        public IActionResult ListarUsuarios()
+        {
+            var usuarios = _userManager.Users.ToList();
+
+            var resultado = usuarios.Select(u => new
+            {
+                u.Id,
+                u.NomeCompleto,
+                u.Email,
+                u.Perfil
+            });
+
+            return Ok(resultado);
+        }
     }
 }

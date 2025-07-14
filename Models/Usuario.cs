@@ -11,6 +11,9 @@ namespace Decolei.net.Models
 
         // Propriedades EXCLUSIVAS do nosso banco/tabela
         public string? Documento { get; set; }
+
+        [Required]
+        [RegularExpression("^(CLIENTE|ATENDENTE|ADMIN)$", ErrorMessage = "Perfil inválido.")]
         public string? Perfil { get; set; } // coluna customizada de "Role"
 
         // NOVA PROPRIEDADE PARA O NOME COMPLETO DE EXIBIÇÃO
